@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32B817F92346988A00FB279A /* DetaileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B817F82346988A00FB279A /* DetaileViewController.swift */; };
+		32B817FA2347E8EF00FB279A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D34EA92345FC3B00C4EEA4 /* ViewController.swift */; };
 		32D34EA62345FC3B00C4EEA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D34EA52345FC3B00C4EEA4 /* AppDelegate.swift */; };
 		32D34EA82345FC3B00C4EEA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D34EA72345FC3B00C4EEA4 /* SceneDelegate.swift */; };
-		32D34EAA2345FC3B00C4EEA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D34EA92345FC3B00C4EEA4 /* ViewController.swift */; };
 		32D34EAD2345FC3B00C4EEA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D34EAB2345FC3B00C4EEA4 /* Main.storyboard */; };
 		32D34EB02345FC3B00C4EEA4 /* MKmapkit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 32D34EAE2345FC3B00C4EEA4 /* MKmapkit.xcdatamodeld */; };
 		32D34EB22345FC3B00C4EEA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32D34EB12345FC3B00C4EEA4 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32B817F82346988A00FB279A /* DetaileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetaileViewController.swift; sourceTree = "<group>"; };
 		32D34EA22345FC3B00C4EEA4 /* MKmapkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKmapkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32D34EA52345FC3B00C4EEA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32D34EA72345FC3B00C4EEA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				32D34EA52345FC3B00C4EEA4 /* AppDelegate.swift */,
 				32D34EA72345FC3B00C4EEA4 /* SceneDelegate.swift */,
 				32D34EA92345FC3B00C4EEA4 /* ViewController.swift */,
+				32B817F82346988A00FB279A /* DetaileViewController.swift */,
 				32D34EAB2345FC3B00C4EEA4 /* Main.storyboard */,
 				32D34EB12345FC3B00C4EEA4 /* Assets.xcassets */,
 				32D34EB32345FC3B00C4EEA4 /* LaunchScreen.storyboard */,
@@ -141,8 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32D34EAA2345FC3B00C4EEA4 /* ViewController.swift in Sources */,
+				32B817FA2347E8EF00FB279A /* ViewController.swift in Sources */,
 				32D34EA62345FC3B00C4EEA4 /* AppDelegate.swift in Sources */,
+				32B817F92346988A00FB279A /* DetaileViewController.swift in Sources */,
 				32D34EA82345FC3B00C4EEA4 /* SceneDelegate.swift in Sources */,
 				32D34EB02345FC3B00C4EEA4 /* MKmapkit.xcdatamodeld in Sources */,
 			);
